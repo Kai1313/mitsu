@@ -104,7 +104,28 @@
 				}
 			}
 		});
-
+		$('.carousel-features').owlCarousel({
+			center: true,
+			loop: true,
+			// autoplay: true,
+			items:1,
+			// singleItem: true,
+			margin: 30,
+			stagePadding: 0,
+			nav: true,
+			navText: ['<span class="ion-ios-arrow-back">', '<span class="ion-ios-arrow-forward">'],
+			responsive:{
+				0:{
+					items: 1
+				},
+				600:{
+					items: 1
+				},
+				1000:{
+					items: 1
+				}
+			}
+		});
 	};
 	carousel();
 

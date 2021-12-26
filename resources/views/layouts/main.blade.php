@@ -28,6 +28,12 @@
     <link rel="stylesheet" href="{{ asset('assets/css/flaticon.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/icomoon.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+    <style>
+        .owl-carousel .owl-item img {
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
 </head>
 
 <body>

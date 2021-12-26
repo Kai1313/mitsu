@@ -31,8 +31,9 @@
                                     <span class="cat">MItsubishi</span>
                                     <p class="price ml-auto"><?= number_format($dt->price, 2) ?><span></span></p>
                                 </div>
-                                <p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Book now</a> <a
-                                        href="car-single.html" class="btn btn-secondary py-2 ml-1">Details</a></p>
+                                <p class="d-flex mb-0 d-block">
+                                    <a href="#" class="btn btn-primary py-2 mr-1">Book now</a> <a href=" cars-details/<?= $dt->slug;?>" class="btn btn-secondary py-2 ml-1">Details</a>
+                                </p>
                             </div>
                         </div>
                     </div>

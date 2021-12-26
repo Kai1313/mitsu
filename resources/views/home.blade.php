@@ -45,7 +45,7 @@
                                         </div>
                                         <p class="d-flex mb-0 d-block">
                                             <a href="#" class="btn btn-primary py-2 mr-1">Booknow</a>
-                                            <a href="#" class="btn btn-secondary py-2 ml-1">Details</a>
+                                            <a href="cars-details/<?= $dt->slug;?>" class="btn btn-secondary py-2 ml-1">Details</a>
                                         </p>
                                     </div>
                                 </div>
