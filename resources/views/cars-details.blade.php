@@ -143,7 +143,7 @@
                                 aria-labelledby="pills-manufacturer-tab">
                                 <p class="mb-5"><?= $details->desc;?></p>
                                 @foreach ($details->detailsSpecification as $ds => $values)
-                                    <div class="mb-5">
+                                    <div class="mb-3">
                                         <h2>{{ strtoupper($ds) }}</h2>
                                         <div class="col-md-12">
                                             <div class="carousel-features owl-carousel">
@@ -206,10 +206,13 @@
                             </div>
                             <div class="text">
                                 <h2 class="mb-0"><a href="car-single.html">{{ $rd[0] }}</a></h2>
-                                <div class="d-flex mb-3">
+                                {{-- <div class="d-flex mb-3">
                                     <span class="cat">Mulai</span>
                                     <p class="price ml-auto">{{ $rd[1] }} <span></span></p>
-                                </div>
+                                </div> --}}
+                                <p class="d-flex mb-0 d-block">
+                                    <a href="#" class="btn btn-primary py-2 mr-1">Konsultasi</a>
+                                </p>
                             </div>
                         </div>
                     </div>
