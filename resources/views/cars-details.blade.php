@@ -211,7 +211,7 @@
                                     <p class="price ml-auto">{{ $rd[1] }} <span></span></p>
                                 </div> --}}
                                 <p class="d-flex mb-0 d-block">
-                                    <a href="https://wa.me/6285607755527?text=Saya%20tertarik%20dengan%20mobil%20Mitsubishi%20 {{ $rd[0] }},%20dan%20saya%20ingin%20bertanya%20lebih%20lanjut" class="btn btn-primary py-2 mr-1">Konsultasi</a>
+                                    <a href="https://wa.me/6285607755527?text=Saya%20tertarik%20dengan%20mobil%20Mitsubishi%20 {{ $rd[0] }},%20dan%20saya%20ingin%20bertanya%20lebih%20lanjut" class="btn btn-success py-2 mr-1"><i class="icon icon-whatsapp"></i> Konsultasi</a>
                                 </p>
                             </div>
                         </div>

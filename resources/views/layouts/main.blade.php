@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Promo Update Mitsubishi || 0822-3360-7800</title>
+    <title>Promo Update Mitsubishi || 0856-0775-5527</title>
     <link rel="icon" href="{{ asset('assets/images/mitsubishi/logo-black.svg') }}">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -33,6 +33,24 @@
             height: 100%;
             object-fit: cover;
         }
+
+        .ftco-navbar-light .navbar-nav > .nav-item.active > a {
+            color: #da291c;
+        }
+
+        .ftco-navbar-light.scrolled .nav-item.active > a {
+            color: #da291c !important;
+        }
+        
+        .ftco-intro .overlay {
+            background: #da291c;
+        }
+
+        .btn.btn-secondary {
+            background: #da291c !important;
+            border: 1px solid #ffffff !important;
+            color: #fff !important;
+        }
     </style>
 </head>
 
@@ -41,7 +59,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
         <div class="container">
             <!-- <a class="navbar-brand" href="index.html">Car<span>Book</span></a> -->
-            <a href="" class="navbar-brand">
+            <a href="{{ '/' }}" class="navbar-brand">
                 <img class="logo logo--light" src="{{ asset('assets/images/mitsubishi/logo-light.svg') }}"
                     alt="Mitsubishi Motors Indonesia" width="60" height="60">
             </a>
@@ -52,8 +70,8 @@
 
             <div class="collapse navbar-collapse" id="ftco-nav">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active"><a href="{{ '/' }}" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="{{ '/cars-lineup' }}" class="nav-link">Explore Cars</a></li>
+                    <li class="nav-item {{ Request::is('/')? "active":"" }}"><a href="{{ '/' }}" class="nav-link">Home</a></li>
+                    <li class="nav-item {{ Request::is('cars-lineup')? "active":"" }}"><a href="{{ '/cars-lineup' }}" class="nav-link">Explore Cars</a></li>
                     {{-- <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
                     <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li> --}}
                 </ul>
@@ -180,6 +198,18 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
     <script src="{{ asset('assets/js/google-map.js') }}"></script>
     <script src="{{ asset('assets/js/main.js') }}"></script>
+    <script>
+        $(function () { 
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 500) { 
+                    $('.navbar .navbar-brand img').attr('src','/assets/images/mitsubishi/logo-black.svg');
+                }
+                if ($(this).scrollTop() < 500) { 
+                    $('.navbar .navbar-brand img').attr('src','/assets/images/mitsubishi/logo-light.svg');
+                }
+            })
+        });
+    </script>
 
 </body>
 

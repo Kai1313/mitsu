@@ -44,7 +44,7 @@
                                             </p>
                                         </div>
                                         <p class="d-flex mb-0 d-block">
-                                            <a href="https://wa.me/6285607755527?text=Saya%20tertarik%20dengan%20mobil%20Mitsubishi%20 <?= $dt->name;?>,%20dan%20saya%20ingin%20bertanya%20lebih%20lanjut" class="btn btn-primary py-2 mr-1">Konsultasi</a>
+                                            <a href="https://wa.me/6285607755527?text=Saya%20tertarik%20dengan%20mobil%20Mitsubishi%20 <?= $dt->name;?>,%20dan%20saya%20ingin%20bertanya%20lebih%20lanjut" class="btn btn-success py-2 mr-1"><i class="icon icon-whatsapp"></i> Konsultasi</a>
                                             <a href="cars-details/<?= $dt->slug;?>" class="btn btn-secondary py-2 ml-1">Details</a>
                                         </p>
                                     </div>
@@ -63,7 +63,18 @@
             <div class="row justify-content-end">
                 <div class="col-md-6 heading-section heading-section-white ftco-animate">
                     <h2 class="mb-3">Mau Explore lebih banyak informasi?</h2>
-                    <a href="https://wa.me/6285607755527?text=Saya%20tertarik%20dengan%20mobil%20Mitsubishi,%20dan%20saya%20ingin%20bertanya%20lebih%20lanjut" class="btn btn-primary btn-lg">Hubungi Kami</a>
+                    <a href="https://wa.me/6285607755527?text=Saya%20tertarik%20dengan%20mobil%20Mitsubishi,%20dan%20saya%20ingin%20bertanya%20lebih%20lanjut" class="btn btn-success btn-lg"><i class="icon icon-whatsapp"></i> Hubungi Kami</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ftco-section">
+        <div class="container">
+            <div class="row justify-content-center mb-5">
+                <div class="col-md-7 heading-section text-center ftco-animate">
+                    <h2 class="mb-2">Brosur</h2>
+                    <a href="/assets/images/mitsubishi/brochure.png" class="btn btn-secondary btn-lg" download><i class="icon icon-download"></i> Penawaran Terbaru</a>
                 </div>
             </div>
         </div>

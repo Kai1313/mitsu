@@ -32,7 +32,7 @@
                                     <p class="price ml-auto"><?= number_format($dt->price, 2) ?><span></span></p>
                                 </div>
                                 <p class="d-flex mb-0 d-block">
-                                    <a href="#" class="btn btn-primary py-2 mr-1">Book now</a> <a href=" cars-details/<?= $dt->slug;?>" class="btn btn-secondary py-2 ml-1">Details</a>
+                                    <a href="https://wa.me/6285607755527?text=Saya%20tertarik%20dengan%20mobil%20Mitsubishi%20 {{ $dt->name }},%20dan%20saya%20ingin%20bertanya%20lebih%20lanjut" class="btn btn-success py-2 mr-1"><i class="icon icon-whatsapp"></i> Konsultasi</a> <a href=" cars-details/<?= $dt->slug;?>" class="btn btn-secondary py-2 ml-1">Details</a>
                                 </p>
                             </div>
                         </div>
