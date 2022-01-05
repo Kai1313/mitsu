@@ -16,7 +16,7 @@ $dummy = [
     (object) [
         'slug' => 'new-xpander',
         'name' => 'New Xpander',
-        'price' => '272580000',        
+        'price' => '254930000',        
         'path' => 'New-Xpander-Ultimate-CVT',
         'desc' => 'BE THE LIFE XPANDER<br/>Terus expand adventure dalam hidup Anda bersama keluarga. The New Xpander hadir untuk membuat momen bersama keluarga lebih menyenangkan dengan fitur-fitur baru yang mengesankan.',
         'transmission' => 'AT CVT, MT',
@@ -82,22 +82,90 @@ $dummy = [
     ],
     (object) [
         'slug' => 'eclipse',
-        'name' => 'Eclipse',
-        'price' => '493750000',
+        'name' => 'Eclipse Cross',
+        'price' => '495400000',
         'path' => 'Eclipse-Ultimate-AT-1.5L-Turbo',
-        'desc' => 'abc'
+        'desc' => 'BUILT TO IMPRESS<br/>Hadir pertama kali di Indonesia dengan desain dan fitur yang meningkatkan rasa percaya diri, untuk mereka yang dinamis dan progresif. Dengan tiga keunggulan utama: stimulating design, confident inspiring driving, dan human connectivity membuat Eclipse Cross menjadi pilihan tepat bagi Anda pencinta SUV',
+        'transmission' => 'AT CVT',
+        'seater' => '5 Seater',
+        'fuel' => 'Petrol',
+        'detailsName' => 'Eclipse Cross',
+        'detailsSpecification' => (object) [
+            'exterior' => (object) [
+                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">Dynamic Shield</h3>', 'exterior-dynamic-shieldjpg.jpg'],
+                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">Projector LED Headlamp</h3>', 'exterior-ledjpg.jpg'],
+                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">Shark Fin Antenna</h3>', 'exterior-shark-finjpg.jpg'],
+                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">Outdoor Door Handles</h3>', 'exterior-outdor-deer-handlessjpg.jpg'],
+                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">Power Door Mirrors</h3>', 'exterior-power-deer-mirrorsjpg.jpg'],
+                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">Rear Luggage Lamp</h3>', 'exterior-rear-luggage-lamp-2jpg.jpg']
+            ],
+            'interior' => (object) [
+                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">Rear Seat Adjustment</h3><div class="mg-b-60-sm fs-14-sm fs-16-md">Terdapat 9 pengaturan kemiringan pada jok belakang dan jarak geser hingga 200mm untuk ruang kaki yang lebih lega. Bagasi yang luas dapat diperbesar dengan melipat kursi belakang untuk memberi tambahan ruang.</div>', 'interior-rear-seat-adjustmentsjpg.jpg'],
+                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">Keyless Operation System (KOS)</h3><div class="mg-b-60-sm fs-14-sm fs-16-md">Dengan hanya membawa kunci, Anda cukup menekan tombol untuk mengunci atau membuka seluruh pintu dan menekan tombol di kokpit untuk menyalakan mesin.</div>', 'interior-keylessjpg.jpg'],
+                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">Thin Display Audio</h3><div class="mg-b-60-sm fs-14-sm fs-16-md">Audio dengan layar sentuh dapat mengontrol sistem audio dan menampilkan gambar dari kamera belakang.</div>', 'interior-audio-displayjpg.jpg'],
+                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">Color LCD Multi-Information Display</h3><div class="mg-b-60-sm fs-14-sm fs-16-md">LCD 4.2-inch di tengah panel meter memudahkan Anda untuk memantau informasi penting seputar perjalanan dan status kendaraan.</div>', 'interior-multi-lcdjpg.jpg'],
+                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">USB Port</h3><div class="mg-b-60-sm fs-14-sm fs-16-md">Soket USB terletak di bawah tuas akselerasi hingga mudah dijangkau dari kursi penumpang maupun pengemudi.</div>', 'interior-usbjpg.jpg'],
+                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">Luxury Black Interior</h3><div class="mg-b-60-sm fs-14-sm fs-16-md">Rasakan detak jantung Anda berpacu dengan sensasi berkendara yang belum pernah Anda rasakan sebelumnya. Dalam ruang kemudi ini, setiap detail meningkatkan fokus dan kontrol Anda dalam berkendara, transisi kecepatan pun terasa mulus dan responsif.</div>', 'interior-interiorjpg.jpg'],
+                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">Power Panoramic Sunroof</h3><div class="mg-b-60-sm fs-14-sm fs-16-md">Twin sunroof yang stylish, dapat dioperasikan secara terpisah. Bagian depan dapat dibuka secara otomatis dan mampu menaikkan mood bagi semua yang berkendara di dalamnya</div>', 'interior-sunroofjpg.jpg'],
+                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">Touchpad Controller</h3><div class="mg-b-60-sm fs-14-sm fs-16-md">Memudahkan penggunaan multimedia tanpa harus menjangkau display.</div>', 'interior-trackpadjpg.jpg'], 
+                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">Head Up display (HUD)</h3><div class="mg-b-60-sm fs-14-sm fs-16-md">Fitur ini memudahkan Anda memantau informasi berkendara melalui display yang berada dalam jangkauan mata. Layarnya terangkat secara otomatis saat mobil dinyalakan</div>', 'interior-hudjpg.jpg']
+            ],
+            'safety' => (object) [
+                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">Active Yaw Control (AYC)</h3><div class="mg-b-60-sm fs-14-sm fs-16-md">Fungsi kontrol pengereman AYC meningkatkan performa saat bermanuver dengan mengoptimalkan tenaga pada rem depan. Anda dapat melihat performa AYC pada indikator yang terpampang di meter display.</div>', 'safety-aycjpg.jpg'],
+                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">Active Stability &amp; Traction Control (ASTC)</h3><div class="mg-b-60-sm fs-14-sm fs-16-md">Saat roda kehilangan kendali di jalanan licin, ASTC akan menyala otomatis, mengatur kecepatan mesin dan mengaktifkan rem pada roda tertentu, untuk menghindari selip.</div>', 'safety-astcjpg.jpg'],
+                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">Forward Collision Mitigation System (FCM)</h3><div class="mg-b-60-sm fs-14-sm fs-16-md">Membantu pencegahan benturan depan, atau meminimalkan dampaknya jika benturan tak dapat dihindari. Fitur ini mendeteksi kendaraan lain dan pejalan kaki melalui kamera dan radar laser.</div>', 'safety-fcm-2jpg.jpg'], 
+                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">7 SRS Airbags &amp; Advanced Safety Features</h3><div class="mg-b-60-sm fs-14-sm fs-16-md">Front airbag, side airbag, curtain airbag dan knee airbag di bagian pengemudi akan melindungi Anda dan penumpang jika terjadi benturan.</div>', 'safety-safetyjpg.jpg']
+            ],
+            'performance' => (object) [
+                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">INVECS-III CVT with 8-Speed Sport Mode</h3><div class="mg-b-60-sm fs-14-sm fs-16-md">Sistem CVT mutakhir di Eclipse Cross menghasilkan efisiensi bahan bakar dan akselerasi yang bertenaga. Kontrol pun berada sepenuhnya di tangan Anda dengan 8-Speed Sport Mode yang memberikan sensasi sporty saat perpindahan gigi.</div>', 'performance-8-speedjpg.jpg'],
+                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">Paddle Shift</h3><div class="mg-b-60-sm fs-14-sm fs-16-md">Memudahkan pemindahan gigi secara manual, tanpa harus melepas setir kemudi.</div>', 'performance-paddle-shiftjpg.jpg'],
+                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">Auto Headlights</h3><div class="mg-b-60-sm fs-14-sm fs-16-md">Lampu depan akan menyala otomatis apabila keadaan di sekeliling mobil gelap, sehingga keamanan Anda tetap terjaga di malam hari atau saat melewati terowongan.</div>', 'performance-auto-headlightjpg.jpg'],
+                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">Rain Sensor</h3><div class="mg-b-60-sm fs-14-sm fs-16-md">Sensor hujan akan otomatis mengaktifkan wiper saat air terdeteksi di kaca depan.</div>', 'performance-rain-sensorjpg.jpg'],
+                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">Adaptive Cruise Control (ACC)</h3><div class="mg-b-60-sm fs-14-sm fs-16-md">Anda dapat dengan mudah mengaktifkan fitur Adaptive Cruise Control dengan menekan tombol di sisi kanan setir.</div>', 'performance-cruise-controljpg.jpg'],
+                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">Electric Parking Brake with Brake Auto Hold</h3><div class="mg-b-60-sm fs-14-sm fs-16-md">Tuas rem parkir yang mudah dioperasikan cukup dengan menarik untuk mengerem dan menekan untuk melepaskannya. Jika Brake Auto Hold aktif, mobil akan tetap diam walaupun pedal rem dilepaskan.</div>', 'performance-electronic-parking-brakejpg.jpg'],
+                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">Heated Seat</h3><div class="mg-b-60-sm fs-14-sm fs-16-md">Jok pengemudi dan penumpang depan memiliki fungsi pemanas yang dapat diaktifkan dari tombol akses cepat.</div>', 'performance-heated-seatjpg.jpg'],
+                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">1.5L DIRECT-INJECTION TURBOCHARGED GASOLINE ENGINE</h3><div class="mg-b-60-sm fs-14-sm fs-16-md">Kapasitas mesin diminimalkan untuk menambah efisiensi. Turbocharged membuat torsi lebih bertenaga pada RPM rendah hingga menengah. Teknologi mesin terbaru memungkinkan akselerasi responsif yang didukung direct fuel injection dengan satu cylinder head exhaust manifold-integrated, sodium-filled exhaust valve, MIVEC (sistem Mitsubishi Innovative Valve timing Electronic Control), dan berbagai kecanggihan lainnya.</div>', 'performance-15l-turbojpg.jpg']
+            ]
+        ],
+        'relatedPath' => 'related-eclipse.jpg',
+        'relatedDetails' => [
+            ['Ultimate A/T 1.5L Turbo', 'Rp283,800,000'],
+        ]
     ],
     (object) [
-        'slug' => 'l300-pickup',
+        'slug' => 'l300',
         'name' => 'L300 Pickup',
-        'price' => '194000000',
+        'price' => '210000000',
         'path' => 'L300-Pickup-Standard',
-        'desc' => 'abc'
+        'desc' => 'TANGGUH UNTUK SEGALA KEBUTUHAN USAHA<br/>Lebih efisien, karena memiliki ruang kargo luas yang didukung oleh mesin bertenaga sehingga Anda dapat mengangkut muatan secara maksimal dan cepat sampai tujuan.',
+        'transmission' => 'MT',
+        'seater' => 'Pickup',
+        'fuel' => 'Diesel',
+        'detailsName' => 'L300 Pickup',
+        'detailsSpecification' => (object) [
+            'interior' => (object) [
+                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">Dashboard Luas</h3>', 'interior-dashboardjpg.jpg'],
+                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">Laci</h3>', 'interior-lacijpg.jpg'],
+                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">Spidometer</h3>', 'interior-spidometerjpg.jpg'],
+                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">CD/MP3 Player</h3>', 'interior-car-audiojpg.jpg'],
+            ],
+            'performance' => (object) [
+                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">Mesin Diesel 4D56</h3><div class="mg-b-60-sm fs-14-sm fs-16-md">Mesin Diesel legendaris Cyclone 2.500cc sudah teruji ketangguhannya!</div>', 'performance-mesin-4d56jpg.jpg'],
+                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">Power Steering</h3><div class="mg-b-60-sm fs-14-sm fs-16-md">Lebih ringan dan nyaman</div>', 'performance-power-steeringjpg.jpg'],
+                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">Kargo Luas</h3><div class="mg-b-60-sm fs-14-sm fs-16-md">Lebih efisien dengan kargo luas yang didukung oleh mesin bertenaga</div>', 'performance-bak-luasjpg.jpg'],
+            ]
+        ],
+        'relatedPath' => 'related-l300.jpg',
+        'relatedDetails' => [
+            ['Pickup Standard', 'Rp283,800,000'],
+            ['Pickup Flat Bed', 'Rp283,800,000'],
+            ['Cab Chassis', 'Rp283,800,000'],
+        ]
     ],
     (object) [
         'slug' => 'new-pajero-sport',
         'name' => 'New Pajero Sport',
-        'price' => '698700000',
+        'price' => '551500000',
         'path' => 'New-Pajero-Sport-Dakar-Ultimate-4x4-AT',
         'desc' => 'THE KING OF SUV WILL TAKE YOU TO YOUR DREAM ADVENTURE <br/>Temukan dunia baru melalui eksplorasi tanpa batas dengan New Pajero Sport yang kini hadir lebih tangguh dan nyaman, dengan teknologi canggih untuk menemani Anda melalui segala petualangan',
         'transmission' => 'AT, MT',
@@ -156,7 +224,7 @@ $dummy = [
     (object) [
         'slug' => 'new-xpander-cross',
         'name' => 'New Xpander Cross',
-        'price' => '291410000',
+        'price' => '284100000',
         'path' => 'New-Xpander-Cross-Premium-Package-CVT',
         'desc' => 'XPAND YOUR ADVENTURE<br/>Xpander Cross adalah sebuah crossover yang memadukan kenyamanan sebuah MPV dengan ketangguhan SUV. Dengan tampilan yang lebih sporty dan tangguh, Xpander Cross siap untuk memberikan petualangan baru untuk mengejar ambisi',
         'transmission' => 'AT CVT, MT',
@@ -224,11 +292,47 @@ $dummy = [
         ]
     ],
     (object) [
-        'slug' => 'triton-hdx',
+        'slug' => 'triton',
         'name' => 'Triton HDX',
-        'price' => '398000000',
+        'price' => '278700000',
         'path' => 'Triton-HDX-MT-Double-cab-4WD',
-        'desc' => 'abc'
+        'desc' => 'ENGINEERED BEYOND TOUGH<br/>New Triton merupakan hasil dari uji coba yang menyeluruh untuk menghasilkan ketangguhan dan kehandalan yang terbaik. Karena tangguh saja tidak cukup, kini New Triton hadir dengan design Dynamic Shield yang mempertegas kesan tangguh untuk menghadapi medan petualangan.',
+        'transmission' => 'AT, MT',
+        'seater' => 'Double Cabin',
+        'fuel' => 'Diesel',
+        'detailsName' => 'Triton HDX',
+        'detailsSpecification' => (object) [
+            'exterior' => (object) [
+                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">Dynamic Shield Front Face design</h3>', 'exterior-fascia-depanjpg.jpg'],
+                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">Sturdy Rear Bumper</h3>', 'exterior-rear-bumperjpg.jpg'],
+                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">Chrome Outer Door Handles</h3>', 'exterior-handle-pintujpg.jpg'],
+                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">Chrome Power Door Mirrors</h3>', 'exterior-spionjpg.jpg'], 
+                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">Chrome Rear Gate Handle</h3>', 'exterior-chrome-gatejpg.jpg'],
+                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">LED Rear Combination Lamps</h3>', 'exterior-lampu-belakangjpg.jpg'],
+                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">Side Steps</h3>', 'exterior-sidestepjpg.jpg'], 
+                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">Cargo with Bed Liner</h3>', 'exterior-bedlinerjpg.jpg'], 
+                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">Sharp Look LED Headlamp with DRL</h3>', 'exterior-led-headlampjpg.jpg'],
+                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">18" Alloy Wheels (Ultimate)</h3>', 'exterior-r18jpg.jpg'], 
+                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">17" Alloy Wheels (EXceed)</h3>', 'exterior-r17jpg.jpg']
+            ],
+            'interior' => (object) [
+                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">New Leather Interior</h3>', 'interior-new-interiorjpg.jpg'],
+                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">Multi Information LCD Display and Speedometer High-Contrast</h3>', 'interior-speedometerjpg.jpg'],
+                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">Premium Wide 2DIN Entertainment System/USB &amp; MP3 Player</h3>', 'interior-audiojpg.jpg'],
+                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">Cruise Control</h3>', 'interior-cruise-controljpg.jpg'],
+            ],
+            'performance' => (object) [
+                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">Mesin Diesel 4D56</h3><div class="mg-b-60-sm fs-14-sm fs-16-md">Mesin Diesel legendaris Cyclone 2.500cc sudah teruji ketangguhannya!</div>', 'performance-mesin-4d56jpg.jpg'],
+                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">Power Steering</h3><div class="mg-b-60-sm fs-14-sm fs-16-md">Lebih ringan dan nyaman</div>', 'performance-power-steeringjpg.jpg'],
+                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">Kargo Luas</h3><div class="mg-b-60-sm fs-14-sm fs-16-md">Lebih efisien dengan kargo luas yang didukung oleh mesin bertenaga</div>', 'performance-bak-luasjpg.jpg'],
+            ]
+        ],
+        'relatedPath' => 'related-l300.jpg',
+        'relatedDetails' => [
+            ['Pickup Standard', 'Rp283,800,000'],
+            ['Pickup Flat Bed', 'Rp283,800,000'],
+            ['Cab Chassis', 'Rp283,800,000'],
+        ]
     ],
     (object) [
         'slug' => 'xpander-cross-rf',
@@ -305,7 +409,7 @@ $dummy = [
     (object) [
         'slug' => 'xpander',
         'name' => 'Xpander',
-        'price' => '273900000',
+        'price' => '254930000',
         'path' => 'Xpander-Ultimate-AT',
         'desc' => 'PILIH XPANDER PINTER BENER<br/>Mobil keluarga yang bener dengan biaya kepemilikan pinter. Ada banyak petualangan menanti di luar sana. Jangan ragu memulainya karena Mitsubishi Xpander punya banyak fitur unggulan yang memastikan Anda sekeluarga merasakan nikmatnya berkendara dengan lebih aman dan nyaman, ke mana pun perjalanannya.',
         'transmission' => 'AT, MT',
@@ -314,28 +418,41 @@ $dummy = [
         'detailsName' => 'Xpander',
         'detailsSpecification' => (object) [
             'exterior' => (object) [
-                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">Black Grille</h3>', 'exterior-xpander-rf-grillepngpng.png'],
-                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">Black Dynamic Shield</h3>', 'exterior-xpander-rf-blackdynamicshieldpng.png'],
-                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">Black Alloy Wheel</h3>', 'exterior-xpander-rf-alloypngpng.png'],
-                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">Black Door Mirror</h3>', 'exterior-xpander-rf-mirrorpngpng.png'],
-                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">Emblem Rockford Fosgate Black Edition</h3>', 'exterior-xpander-rf-badgepngpng.png'],
+                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">16 Inch Wheel</h3>', 'exterior-16-inch-wheeljpg.jpg'],
+                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">Front & Rear Bumper</h3>', 'exterior-font-rear-bumperjpg.jpg'],
+                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">Modern Rear Spoiler</h3>', 'exterior-moderm-rear-spoilerjpg.jpg'],
+                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">Rear Window Defogger</h3>', 'exterior-rear-window-defoggerjpg.jpg'],
+                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">Shark Fin Antenna</h3>', 'exterior-shark-fin-antenajpg.jpg'],
+                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">Back Car Baggage</h3>', 'exterior-xpander-backjpg.jpg'],
+                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">Rear Camera</h3>', 'exterior-rear-camerajpg.jpg'],
+                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">Rear Parking Sensor</h3>', 'exterior-new-rear-parkingjpg.jpg'],
             ],
             'interior' => (object) [
-                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">Rockford Fosgate Audio System</h3>', 'interior-xpander-rf-subwooferpngpng.png'],
-                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">7-INCH AUDIO HEAD UNIT WITH SMARTPHONE CONNECTIVITY</h3>', 'interior-xpander-rf-headunitpngpng.png'],
-                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">Push Start Stop Engine Button</h3>', 'interior-xpander-rf-ssbuttonpngpng.png'],
+                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">7-SEATER COMFORT</h3><div class="mg-b-60-sm fs-14-sm fs-16-md">Kenyamanan berkendara dan kemewahan jadi hal pokok yang selalu diimpikan keluarga Indonesia. Mitsubishi Xpander hadir dengan kabin luas dipadu pilihan material dan desain interior layaknya MPV kelas atas.</div>', 'interior-7-seater-comfortjpg.jpg'],
+                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">Pengaturan Kursi 4 Penumpang + Sandaran Lengan</h3><div class="mg-b-60-sm fs-14-sm fs-16-md">Dengan melipat kursi baris ke-3 untuk muatan besar dan panjang.</div>', 'interior-pengaturan-kursi-4-penumpang-sandaran-lenganjpgjpg.jpg'],
+                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">SEATING ARRANGEMENT YANG FLEKSIBEL</h3><div class="mg-b-60-sm fs-14-sm fs-16-md">
+                Generasi baru dari kursi tiga baris yang dapat dilipat dan diatur dengan sangat mudah, bahkan saat Anda membutuhkan permukaan yang rata.</div>', 'interior-seating-arrangement-fleksibeljpg.jpg'],
                 ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">HIGH CONTRAST METER CLUSTER (COLOR MID)</h3>', 'interior-xpander-rf-midpngpng.png'],
             ],
+            'safety' => (object) [
+                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">RISE BODY (REINFORCED IMPACT SAFETY EVOLUTION)</h3>', 'safety-risejpg.jpg'],
+                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">ABS (ANTI-LOCK BRAKING SYSTEM)</h3>', 'safety-absjpgjpg.jpg']
+            ],
             'performance' => (object) [
-                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">MEMILIKI GROUND CLEARANCE TERTINGGI</h3><div class="mg-b-60-sm fs-14-sm fs-16-md">Mitsubishi Xpander memiliki ground clearance tertinggi di kelasnya, sehingga lebih nyaman dikendarai.</div>', 'performance-rn-sam-hitam-depanjpg.jpg'],
+                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">TOP CLASS HIGH GROUND CLEARANCE</h3><div class="mg-b-60-sm fs-14-sm fs-16-md">Mitsubishi Xpander memiliki ground clearance tertinggi di kelasnya, sehingga lebih nyaman dikendarai. (tipe ULTIMATE, SPORT dan EXCEED).</div>', 'performance-xpander-hitam-1png.png'],
                 ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">1.5 L MIVEC DOHC 16 Valve</h3><div class="mg-b-60-sm fs-14-sm fs-16-md">Nikmati pengalaman berkendara terbaik di mana pun medannya, berkat performa tangguh hasil kombinasi mesin MIVEC 1.5 L dan suspensi canggih dengan katup peredam guncangan.</div>', 'performance-15l-mivec-dohcjpg.jpg'],
-                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">SUSPENSI LEBIH STABIL DAN NYAMAN DI KELASNYA</h3><div class="mg-b-60-sm fs-14-sm fs-16-md">Mitsubishi Xpander dilengkapi shock absorber valve baik di depan maupun belakang, dikembangkan khusus dengan quick response sehingga membuat kendaraan lebih stabil.</div>', 'performance-suspensi-stabiljpg.jpg'],
+                ['<h3 class="title-primary_medium--alt fw-bold mg-b-15-sm mg-b-30-md">SUSPENSI LEBIH STABIL DAN NYAMAN DI KELASNYA</h3>', 'performance-suspensi-stabiljpg.jpg'],
             ]
         ],
         'relatedPath' => 'related-xpander.jpg',
         'relatedDetails' => [
-            ['Xpander Rockford Fosgate Black Edition A/T', 'Rp283,800,000'],
-            ['Xpander Rockford Fosgate Black Edition M/T', 'Rp273,900,000']
+            ['ULTIMATE A/T', 'Rp283,800,000'],
+            ['SPORT A/T', 'Rp273,900,000'],
+            ['SPORT M/T', 'Rp273,900,000'],
+            ['EXCEED A/T', 'Rp273,900,000'],
+            ['EXCEED M/T', 'Rp273,900,000'],
+            ['GLS A/T', 'Rp273,900,000'],
+            ['GLS M/T', 'Rp273,900,000'],
         ]
     ]
 ];

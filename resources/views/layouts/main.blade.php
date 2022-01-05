@@ -54,8 +54,8 @@
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active"><a href="{{ '/' }}" class="nav-link">Home</a></li>
                     <li class="nav-item"><a href="{{ '/cars-lineup' }}" class="nav-link">Explore Cars</a></li>
-                    <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                    {{-- <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li> --}}
                 </ul>
             </div>
         </div>
@@ -112,13 +112,23 @@
                         <h2 class="ftco-heading-2">Ada pertanyaan?</h2>
                         <div class="block-23 mb-3">
                             <ul>
-                                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2
-                                            392 3929 210</span></a></li>
-                                <li><a href="#"><span class="icon icon-whatsapp"></span><span class="text">+2
-                                            392 3929 210</span></a></li>
-                                <li><a href="#"><span class="icon icon-envelope"></span>
+                                {{-- <li>
+                                    <a href="#">
+                                        <span class="icon icon-phone"></span><span class="text">+2
+                                            392 3929 210</span>
+                                    </a>
+                                </li> --}}
+                                <li>
+                                    <a href="https://wa.me/6285607755527?text=Saya%20tertarik%20dengan%20mobil%20Mitsubishi%20,%20dan%20saya%20ingin%20bertanya%20lebih%20lanjut">
+                                        <span class="icon icon-whatsapp"></span><span class="text">+62 856 0775 5527</span>
+                                        </a>
+                                    </li>
+                                {{-- <li>
+                                    <a href="#">
+                                        <span class="icon icon-envelope"></span>
                                         <spanclass="text">info@yourdomain.com</span>
-                                    </a></li>
+                                    </a>
+                                </li> --}}
                             </ul>
                         </div>
                     </div>
